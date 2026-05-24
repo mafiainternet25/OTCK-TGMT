@@ -3,7 +3,7 @@
 # b. in giá trị màu của ảnh tại điểm có tọa độ nhập vào.
 # c. tăng độ tương phản của ảnh với hệ số tương phản nhập vào từ bàn phím, lưu lại ảnh kết quả.
 # d. cắt một phần ảnh với các tọa độ nhập vào từ bàn phím , lưu ảnh vừa cắt.
-# e. thay đổi kích thước ảnh theo tỉ lệ và kích thước mới , lưu ảnh kết quả.
+# e. thay đổi kích thước ảnh theo tỉ lệ và kích thước mới.
 
 import cv2
 anh = cv2.imread('data/quoc.jpg')
