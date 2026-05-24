@@ -6,7 +6,7 @@
 
 
 import cv2
-video = cv2.VideoCapture(0)
+video = cv2.VideoCapture('data/quoc.mp4')
 print('fps:',video.get(5))
 while True:
     docvideo,khunghinh = video.read()
